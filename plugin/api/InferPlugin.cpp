@@ -38,6 +38,7 @@ using namespace nvinfer1::plugin;
 #include "efficientNMSPlugin.h"
 #include "tftrt/efficientNMSImplicitTFTRTPlugin.h"
 #include "tftrt/efficientNMSExplicitTFTRTPlugin.h"
+#include "efficientNMSCustomPlugin.h"
 #include "flattenConcat.h"
 #include "fmhcaPlugin.h"
 #include "generateDetectionPlugin.h"
@@ -190,6 +191,7 @@ extern "C"
         initializePlugin<nvinfer1::plugin::EfficientNMSONNXPluginCreator>(logger, libNamespace);
         initializePlugin<nvinfer1::plugin::EfficientNMSExplicitTFTRTPluginCreator>(logger, libNamespace);
         initializePlugin<nvinfer1::plugin::EfficientNMSImplicitTFTRTPluginCreator>(logger, libNamespace);
+        initializePlugin<nvinfer1::plugin::EfficientNMSCustomPluginCreator>(logger, libNamespace);
         initializePlugin<nvinfer1::plugin::FlattenConcatPluginCreator>(logger, libNamespace);
 #if defined(ENABLE_SM75) || defined(ENABLE_SM80) || defined(ENABLE_SM86) || defined(ENABLE_SM89)
         initializePlugin<nvinfer1::plugin::FMHAPluginCreator>(logger, libNamespace);

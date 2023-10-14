@@ -46,6 +46,7 @@
 | [specialSlicePlugin](specialSlicePlugin) | SpecialSlice_TRT | 1 |
 | [splitPlugin](splitPlugin) | Split | 1 |
 | [voxelGeneratorPlugin](voxelGeneratorPlugin) | VoxelGeneratorPlugin | 1 |
+| [efficientNMSCustomPlugin](efficientNMSCustomPlugin) | EfficientNMSCustom_TRT | 1 |
 
 ## Known Limitations
 

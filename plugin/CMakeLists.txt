@@ -43,6 +43,7 @@ set(PLUGIN_LISTS
     disentangledAttentionPlugin
     efficientNMSPlugin
     efficientNMSPlugin/tftrt
+    efficientNMSCustomPlugin
     flattenConcat
     generateDetectionPlugin
     gridAnchorPlugin
