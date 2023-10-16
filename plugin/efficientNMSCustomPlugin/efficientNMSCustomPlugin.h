@@ -64,6 +64,7 @@ public:
 
 protected:
     EfficientNMSCustomParameters mParam{};
+    bool initialized{false};
     std::string mNamespace;
 };
 
@@ -85,7 +86,6 @@ public:
 protected:
     PluginFieldCollection mFC;
     EfficientNMSCustomParameters mParam;
-    bool initialized{false};
     std::vector<PluginField> mPluginAttributes;
     std::string mPluginName;
 };
