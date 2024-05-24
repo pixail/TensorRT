@@ -28,6 +28,7 @@
 #include "efficientNMSPlugin/efficientNMSPlugin.h"
 #include "efficientNMSPlugin/tftrt/efficientNMSExplicitTFTRTPlugin.h"
 #include "efficientNMSPlugin/tftrt/efficientNMSImplicitTFTRTPlugin.h"
+#include "efficientNMSCustomPlugin.h"
 #include "flattenConcat/flattenConcat.h"
 #include "generateDetectionPlugin/generateDetectionPlugin.h"
 #include "gridAnchorPlugin/gridAnchorPlugin.h"
