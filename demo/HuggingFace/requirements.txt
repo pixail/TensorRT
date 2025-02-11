@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-transformers==4.8.0
+transformers==4.48.0
 tabulate
 toml
 torch
